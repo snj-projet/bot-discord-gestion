@@ -16,8 +16,8 @@ from discord.ui import View, Button, Modal, TextInput
 
 
 BASE_DIR = Path(__file__).resolve().parent
-CONFIG_PATH = BASE_DIR / "snj_config.json"
-DATA_PATH = BASE_DIR / "snj_data.json"
+CONFIG_PATH = BASE_DIR / "config.json"
+DATA_PATH = BASE_DIR / "data.json"
 
 DEFAULT_OWNERS = [1258616348377092122]
 COLOR = discord.Color.dark_purple()
